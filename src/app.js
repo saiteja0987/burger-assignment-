@@ -130,7 +130,7 @@ function renderButtons(){
 //Challenge 2 - Render only the items selected in the ingredients board based on the state
 function renderIngredientsBoard(){
   var menu=document.querySelector(".menu-container")
-  var item= menu.querySelectorAll(".items")
+  var itm= menu.querySelectorAll(".items")
   for(const item of itm){
     var name=item.textContent;
     if(state[name]){
